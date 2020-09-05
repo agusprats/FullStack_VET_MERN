@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.6rem;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 4rem;
+}
+h2 {
+ color: #f1f1f1
+}
+h3 {
+    font-family: 'Staatliches', cursive;
+    color:#000;
+    font-size: 2.4rem;
+}
+.btn {
+    font-size:1.4rem;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.btn-dark{
+    background-color: #858382;
+}
+.fecha-alta {
+    font-family: 'Staatliches', cursive;
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.contacto p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.list-group-item:hover {
+    background: white;
+}
+form {
+    border-radius: .3rem;
+}
