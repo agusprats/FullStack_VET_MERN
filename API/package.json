@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-api",
+  "version": "1.0.0",
+  "description": "Backend Mongo and Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Agustina Prats",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
